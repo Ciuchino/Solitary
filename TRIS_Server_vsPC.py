@@ -113,7 +113,7 @@ def risultato(board, ris_vinc):
 
 #Prima configuro il server.....
 serverPort = 50000
-serverName = '192.168.1.18'
+serverName = '192.168.1.195'
 welcomeSocket = socket(AF_INET, SOCK_STREAM)
 welcomeSocket.bind((serverName, serverPort))
 welcomeSocket.listen(1)
