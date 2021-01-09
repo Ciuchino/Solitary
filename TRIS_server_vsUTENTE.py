@@ -140,7 +140,7 @@ def handler(connectionSocket):
 
 #Prima configuro il server.....
 serverPort = 50000
-serverName = '192.168.1.18'
+serverName = 'localhost'
 welcomeSocket = socket(AF_INET, SOCK_STREAM)
 welcomeSocket.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)
 welcomeSocket.bind((serverName, serverPort))

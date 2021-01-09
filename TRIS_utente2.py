@@ -1,6 +1,6 @@
 from socket import *
 
-serverName = '192.168.1.18'
+serverName = 'localhost'
 serverPort = 50000
 nomeUtente = 'Utente2'
 nomeAvversario = 'Utente1'
